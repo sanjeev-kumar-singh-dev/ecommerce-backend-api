@@ -24,7 +24,7 @@ public class RequestHeaderInterceptor implements HandlerInterceptor {
 
 		LOG.info("preHandle() method invoked");
 
-		LOG.info("---------------- Request Start ---------------");
+		LOG.info("---------------- Request Start ------------------------------------------------------------------------");
 		LOG.info("Request URL: " + request.getRequestURI());
 		LOG.info("Method Type: " + request.getMethod());
 
