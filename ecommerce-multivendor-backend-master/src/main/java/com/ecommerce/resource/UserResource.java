@@ -74,6 +74,7 @@ public class UserResource {
 
 			return new ResponseEntity<CommonApiResponse>(response, HttpStatus.BAD_REQUEST);
 		}
+		
 
 		if (registerRequest.getEmailId() == null || registerRequest.getPassword() == null) {
 			response.setResponseMessage("missing input");
@@ -81,6 +82,7 @@ public class UserResource {
 
 			return new ResponseEntity<CommonApiResponse>(response, HttpStatus.BAD_REQUEST);
 		}
+		
 
 		User existingUser = this.userService.getUserByEmailAndStatus(registerRequest.getEmailId(),
 				UserStatus.ACTIVE.value());
@@ -91,9 +93,9 @@ public class UserResource {
 
 			return new ResponseEntity<CommonApiResponse>(response, HttpStatus.BAD_REQUEST);
 		}
-
+		
+		
 		User user = RegisterUserRequestDto.toUserEntity(registerRequest);
-
 		user.setRole(UserRole.ROLE_ADMIN.value());
 		user.setPassword(passwordEncoder.encode(registerRequest.getPassword()));
 		user.setStatus(UserStatus.ACTIVE.value());

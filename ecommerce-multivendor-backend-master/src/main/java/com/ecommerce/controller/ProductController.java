@@ -38,7 +38,8 @@ public class ProductController {
 
 	@PutMapping("update/detail")
 	@Operation(summary = "Api to update product details")
-	public ResponseEntity<CommonApiResponse> updateProductDetails(@RequestBody ProductDetailUpdateRequest request) {
+	public ResponseEntity<CommonApiResponse> updateProductDetails(
+			@RequestBody ProductDetailUpdateRequest request) {
 		System.out.println(request);
 		return this.productResource.updateProductDetail(request);
 	}

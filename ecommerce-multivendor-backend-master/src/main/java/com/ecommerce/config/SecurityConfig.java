@@ -44,47 +44,29 @@ public class SecurityConfig {
 						auth -> auth.requestMatchers("/api/user/login", "/api/user/register").permitAll()
 						
 						// this APIs are only accessible by ADMIN
-						.requestMatchers("/api/user/admin/register",
-								"/api/user/delete/seller", 
-								"/api/order/fetch/all",
-								"/api/category/update", 
-								"/api/category/add", 
-								"/api/category/delete")
+						.requestMatchers("/api/user/admin/register","/api/user/delete/seller", "/api/order/fetch/all",
+								"/api/category/update", "/api/category/add", "/api/category/delete")
 						.hasAuthority(UserRole.ROLE_ADMIN.value())
 						
-						
 						// this APIs are only accessible by SELLER
-						.requestMatchers("/api/user/fetch/seller/delivery-person", 
-								"/api/user/delete/seller/delivery-person",
-								"/api/product/update/image",
-								"/api/product/update/detail",
-								"/api/product/add", 
-								"/api/product/delete",						
-								"/api/order/assign/delivery-person",
-								"/api/order/fetch/seller-wise",
+						.requestMatchers("/api/user/fetch/seller/delivery-person", "/api/user/delete/seller/delivery-person", "/api/product/update/image",
+								"/api/product/update/detail", "/api/product/add", "/api/product/delete",
+								"/api/order/assign/delivery-person", "/api/order/fetch/seller-wise",
 								"/api/product/review/seller")
 						.hasAuthority(UserRole.ROLE_SELLER.value())
 						
 						// this APIs are only accessible by SELLER
-						.requestMatchers("/api/order/update/delivery-status", 
-								"/api/order/fetch/delivery-wise")
+						.requestMatchers("/api/order/update/delivery-status", "/api/order/fetch/delivery-wise")
 						.hasAuthority(UserRole.ROLE_DELIVERY.value())
 						
 						// this APIs are only accessible by SELLER
-						.requestMatchers("/api/order/add",
-								"/api/order/fetch/user-wise", 
-								"/api/cart/update",
-								"/api/cart/add", 
-								"/api/cart/fetch", 
-								"/api/cart/delete", 
-								"/api/product/review/add")
+						.requestMatchers("/api/order/add", "/api/order/fetch/user-wise", "/api/cart/update",
+								"/api/cart/add", "/api/cart/fetch", "/api/cart/delete", "/api/product/review/add")
 						.hasAuthority(UserRole.ROLE_CUSTOMER.value())
 
 						// this APIs are only accessible by ADMIN & SELLER
-						.requestMatchers("/api/user/fetch/role-wise", 
-								"/api/user/update/status")
-						.hasAnyAuthority(UserRole.ROLE_ADMIN.value(),
-								UserRole.ROLE_SELLER.value())
+						.requestMatchers("/api/user/fetch/role-wise", "/api/user/update/status")
+						.hasAnyAuthority(UserRole.ROLE_ADMIN.value(), UserRole.ROLE_SELLER.value())
 						
 						.anyRequest()
 						.permitAll())

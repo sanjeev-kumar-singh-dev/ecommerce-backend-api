@@ -25,6 +25,11 @@ public class RegisterUserRequestDto {
 	private int pincode;
 
 	private int sellerId; // seller id for delivery person
+	
+	
+	
+	
+	
 
 	public String getFirstName() {
 		return firstName;

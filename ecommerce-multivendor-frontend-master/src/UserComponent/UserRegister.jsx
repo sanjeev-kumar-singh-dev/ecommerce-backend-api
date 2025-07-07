@@ -21,11 +21,11 @@ const UserRegister = () => {
   });
 
   useEffect(() => {
-    if (document.URL.indexOf("customer") != -1) {
+    if (document.URL.indexOf("customer") !== -1) {
       user.role = "Customer";
-    } else if (document.URL.indexOf("delivery") != -1) {
+    } else if (document.URL.indexOf("delivery") !== -1) {
       user.role = "Delivery";
-    } else if (document.URL.indexOf("seller") != -1) {
+    } else if (document.URL.indexOf("seller") !== -1) {
       user.role = "Seller";
     }
   }, []);

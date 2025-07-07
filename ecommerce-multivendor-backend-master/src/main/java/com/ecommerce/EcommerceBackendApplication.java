@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.ecommerce.entity.User;
@@ -13,6 +14,9 @@ import com.ecommerce.service.UserService;
 import com.ecommerce.utility.Constants.UserRole;
 import com.ecommerce.utility.Constants.UserStatus;
 
+
+
+@ComponentScan(basePackages="com.ecommerce**")
 @SpringBootApplication
 public class EcommerceBackendApplication implements CommandLineRunner {
 

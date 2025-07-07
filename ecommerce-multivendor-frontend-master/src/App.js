@@ -42,6 +42,7 @@ function App() {
         <Route path="/seller/delivery/register" element={<UserRegister />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contactus" element={<ContactUs />} />
+       
         <Route
           path="/product/category/:categoryId/:categoryName"
           element={<HomePage />}

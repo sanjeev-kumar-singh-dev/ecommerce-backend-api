@@ -38,7 +38,7 @@ const Header = () => {
           />
           <Link to="/" class="navbar-brand">
             <i>
-              <b className="text-color ms-2"> e-MART</b>
+              <b className="text-color ms-2">Multi-Vendor Shop</b>
             </i>
           </Link>
 
@@ -73,7 +73,6 @@ const Header = () => {
                           class="dropdown-item  text-center"
                         >
                           <b>{category.name}</b>
-                          
                         </Link>
                       </li>
                     );

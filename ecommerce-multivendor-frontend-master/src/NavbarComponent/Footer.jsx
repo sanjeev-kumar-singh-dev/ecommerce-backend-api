@@ -149,9 +149,9 @@ const Footer = () => {
           </div>
 
           <div class="text-center">
-            © 2024 Copyright:
+            © 2023 Copyright:
             <a class="text-color-3" href="https://codewithmurad.com/">
-              ecommerce.comTM
+              codewithmurad.com
             </a>
           </div>
         </footer>

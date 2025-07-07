@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const AdminRegisterForm = () => {
   let navigate = useNavigate();
+  
 
   const admin_jwtToken = sessionStorage.getItem("admin-jwtToken");
 
@@ -13,6 +14,8 @@ const AdminRegisterForm = () => {
   const handleUserInput = (e) => {
     setRegisterRequest({ ...registerRequest, [e.target.name]: e.target.value });
   };
+
+
 
   const registerAdmin = (e) => {
     fetch("http://localhost:8080/api/user/admin/register", {
@@ -25,7 +28,11 @@ const AdminRegisterForm = () => {
       body: JSON.stringify(registerRequest),
     })
       .then((result) => {
+        let btnEl = document.getElementById("my-button");
+
+        btnEl?.addEventListener("click", () => alert("You clicked a button!"));
         console.log("result", result);
+        
         result.json().then((res) => {
           if (res.success) {
             toast.success(res.responseMessage, {
@@ -66,6 +73,8 @@ const AdminRegisterForm = () => {
               progress: undefined,
             });
 
+
+            
             setTimeout(() => {
               window.location.reload(true);
             }, 1000); // Redirect after 3 seconds
@@ -102,7 +111,7 @@ const AdminRegisterForm = () => {
                 height: "38px",
               }}
             >
-              <h4 className="card-title">Admin Register</h4>
+              <h4 className="card-title">Admin-Register</h4>
             </div>
             <div className="card-body mt-3">
               <form>

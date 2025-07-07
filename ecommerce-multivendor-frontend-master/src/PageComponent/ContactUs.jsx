@@ -5,10 +5,11 @@ const ContactUs = () => {
       <b>
         We value your feedback, questions, and inquiries. Whether you need
         assistance with an order, have a suggestion, or simply want to connect,
-        our team is here to help. Feel free to reach out through the provided
-        contact form, email, or phone number, and we'll respond promptly to
+        our team is here to help you. Please Feel free to reach out to us through the provided
+        contact form, email, fax or phone number, and we'll respond promptly to
         ensure your experience with us is nothing short of exceptional. Your
         satisfaction is our priority, and we look forward to hearing from you.
+        
       </b>
     </div>
   );
