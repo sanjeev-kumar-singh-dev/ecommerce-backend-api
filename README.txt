@@ -1,5 +1,5 @@
 
-FOR THE SET UP OF PROJECT, PLEASE FOLLOW THE SET UP GUIDE VIDEO PROPERLY WITHOUT SKIPPING ANYTHING.
+FOR THE SET UP OF PROJECT, PLEASE FOLLOW THE SET UP GUIDE 
 
 -----------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ AFTER SET UP PROCESS
 
 Now if your set up is done and both backend and frontend is running fine.
 
-NOTE: In your system, you'll not be able to see all the Data as shown in my set up video,  because you have just executed the project in your system
+NOTE: In your system, you'll not be able to see all the Data as shown  because you have just executed the project in your system
 and there is no data present in your database.
 
 So don't get tensed.
@@ -62,22 +62,12 @@ Email Id: demo.admin@demo.com
 Password: 123456
 
 
-PROJECT YOUTUBE VIDEO LINK: https://www.youtube.com/watch?v=9_F9AlS4RbY
-
 And Lastly, Go through the Code and try to understand the Code, it will help alot:)
 
 -----------------------------------------------------------------------
 
-If you face any issue during set up, please do contact me:
 
-Contact Details:
 
-Email Id: codewithmurad@gmail.com
-Instagram: https://www.instagram.com/codewithmurad/
-Facebook: https://www.facebook.com/codewithmurad/
-Telegram: https://t.me/codewithmurad
-Whatsapp: http://wa.me/917304353428
-Discord:https://discord.com/invite/9TPphFmGMh
 
 
 ONCE SET UP IS DONE, PLEASE DO SUBSCRIBE MY YOUTUBE CHANNEL: https://www.youtube.com/@CodeWithMurad
