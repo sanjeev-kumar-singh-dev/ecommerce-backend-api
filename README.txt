@@ -66,10 +66,4 @@ And Lastly, Go through the Code and try to understand the Code, it will help alo
 
 -----------------------------------------------------------------------
 
-
-
-
-
-ONCE SET UP IS DONE, PLEASE DO SUBSCRIBE MY YOUTUBE CHANNEL: https://www.youtube.com/@CodeWithMurad
-
-*********** THANK YOU ***********
+                      *********** THANK YOU ***********
