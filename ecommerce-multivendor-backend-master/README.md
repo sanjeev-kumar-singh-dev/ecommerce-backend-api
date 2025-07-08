@@ -1,11 +1,4 @@
 
-FOR THE SET UP OF PROJECT, PLEASE FOLLOW THE SET UP GUIDE VIDEO PROPERLY WITHOUT SKIPPING ANYTHING.
-
-SET UP GUIDE VIDEO LINK: https://drive.google.com/file/d/1soLm6b6_vKWSmWcUjk5eRxjmSZL5r8IT/view?usp=drive_link
-
-REQUEST ACCESS FOR THE VIDEO BECAUSE IT IS PRIVATE
-
------------------------------------------------------------------------
 
 Befor starting the project set up, make sure you have properly installed the below softwares:
 1) Java JDK 17 or above version
@@ -16,7 +9,7 @@ Befor starting the project set up, make sure you have properly installed the bel
 
 -----------------------------------------------------------------------
 
-As shown on video, For running frontend we have to use [npm start] command.
+ For running frontend we have to use [npm start] command.
 
 1) After hitting [npm start] command, when we get [Error: cannot find module react], 
 
@@ -52,39 +45,17 @@ AFTER SET UP PROCESS
 
 Now if your set up is done and both backend and frontend is running fine.
 
-NOTE: In your system, you'll not be able to see all the Data as shown in my set up video,  because you have just executed the project in your system
-and there is no data present in your database.
+
 
 So don't get tensed.
 
-You simply have to follow my youtube video, where I have shown each and every functionalities of the project, so just follow that and try to perform all the
-functionalities as shown in my youtube video, you'll also get familiar about the project.
+You simply have to follow  where I have shown each and every functionalities of the project, so just follow that and try to perform all the
+functionalities as shown, you'll also get familiar about the project.
 
 ADMIN CREDENTIAL:     (this is harded coded, check main class)
 
 Email Id: demo.admin@demo.com
-Password: 123456
-
-
-PROJECT YOUTUBE VIDEO LINK: https://www.youtube.com/watch?v=9_F9AlS4RbY
-
-And Lastly, Go through the Code and try to understand the Code, it will help alot:)
-
------------------------------------------------------------------------
-
-If you face any issue during set up, please do contact me:
-
-Contact Details:
-
-Email Id: codewithmurad@gmail.com
-Instagram: https://www.instagram.com/codewithmurad/
-Facebook: https://www.facebook.com/codewithmurad/
-Telegram: https://t.me/codewithmurad
-Whatsapp: http://wa.me/917304353428
-Discord:https://discord.com/invite/9TPphFmGMh
-
-
-ONCE SET UP IS DONE, PLEASE DO SUBSCRIBE MY YOUTUBE CHANNEL: https://www.youtube.com/@CodeWithMurad
+Password: 12345
 
 *********** THANK YOU ***********
 "# eshop-backend" 
