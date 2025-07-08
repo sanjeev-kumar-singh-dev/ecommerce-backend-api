@@ -54,7 +54,7 @@ and there is no data present in your database.
 So don't get tensed.
 
 You simply have to follow my code, where I have shown each and every functionalities of the project, so just follow  code snippet that and try to perform all the
-functionalities as shown in my  , you'll also get familiar about the project.
+functionalities as shown in my project code , you'll also get familiar about the project.
 
 ADMIN CREDENTIAL:     (this is harded coded, check main class)
 
