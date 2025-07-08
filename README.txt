@@ -12,7 +12,7 @@ Befor starting the project set up, make sure you have properly installed the bel
 
 -----------------------------------------------------------------------
 
-As shown on video, For running frontend we have to use [npm start] command.
+As shown on , For running frontend we have to use [npm start] command.
 
 1) After hitting [npm start] command, when we get [Error: cannot find module react], 
 
@@ -53,8 +53,8 @@ and there is no data present in your database.
 
 So don't get tensed.
 
-You simply have to follow my youtube video, where I have shown each and every functionalities of the project, so just follow that and try to perform all the
-functionalities as shown in my youtube video, you'll also get familiar about the project.
+You simply have to follow my code, where I have shown each and every functionalities of the project, so just follow  code snippet that and try to perform all the
+functionalities as shown in my  , you'll also get familiar about the project.
 
 ADMIN CREDENTIAL:     (this is harded coded, check main class)
 
