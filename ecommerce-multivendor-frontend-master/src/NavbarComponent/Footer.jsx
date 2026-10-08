@@ -149,9 +149,9 @@ const Footer = () => {
           </div>
 
           <div class="text-center">
-            © 2023 Copyright:
-            <a class="text-color-3" href="https://codewithmurad.com/">
-              codewithmurad.com
+       © {new Date().getFullYear()} Copyright: :
+            <a class="text-color-3" href="https://neuralnode-website.vercel.app/#contact">
+              neuralnode software
             </a>
           </div>
         </footer>
