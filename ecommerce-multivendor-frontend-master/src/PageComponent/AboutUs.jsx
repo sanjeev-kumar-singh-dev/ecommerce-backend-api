@@ -55,6 +55,33 @@ const AboutUs = () => {
         customer, easy to run, etc.
       </b>
     </div>
+          {/* Grid Layout: Splitting theoretical details into scannable sub-columns */}
+          <div className="row my-4 pt-2">
+            
+            {/* Column 2: Traditional Shopping vs Digital Transformation */}
+            <div className="col-md-6 mb-3">
+              <h5 className="text-uppercase text-color-4 font-weight-bold mb-3">The Evolution of Shopping</h5>
+              <p style={{ lineHeight: "1.6" }}>
+                In traditional retail systems, shopping is done manually—customers must travel to physical markets 
+                to select items. Transitioning online changes the dynamic, giving businesses massive advantages in 
+                convincing customers through detailed descriptions, authentic quality checks, and real customer 
+                reviews that establish lasting trust.
+              </p>
+            </div>
+            
+            {/* Column 3: Platform Mission & B2C Business Model */}
+            <div className="col-md-6 mb-3">
+              <h5 className="text-uppercase text-color-4 font-weight-bold mb-3">Anytime, Anywhere</h5>
+              <p style={{ lineHeight: "1.6" }}>
+                Operating primarily on the <strong>B2C (Business to Customer)</strong> model, our multi-vendor platform 
+                is designed to maximize high convenience, wide exposure, and global reach. We make digital business 
+                promotions seamless, empowering sellers to run their operations easily while providing buyers with safe, 
+                24/7 access to products.
+              </p>
+            </div>
+
+          </div>
+
   );
 };
 
