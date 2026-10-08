@@ -1,16 +1,32 @@
 const AboutUs = () => {
   return (
-    <div className="text-color ms-5 me-5 mr-5 mt-3">
+   // Main responsive outer container with vertical spacing
+    <div className="container my-5 text-color">
+      
+      {/* SECTION: Page Title & Accent Line */}
+      <div className="row mb-4">
+        <div className="col-12 text-center">
+          <h2 className="display-5 font-weight-bold mb-3">About Our Marketplace</h2>
+          {/* Decorative colored underline utilizing custom dynamic styling */}
+          <div className="bg-color mx-auto" style={{ width: "80px", height: "4px", borderRadius: "2px" }}></div>
+        </div>
+      </div>
+      
       <h4 className="mb-3">About Us</h4>
-      <b>
-        Online shopping is a process whereby consumers directly buy goods,
-        services etc. from a seller without an intermediary service over the
-        Internet. Shoppers can visit web stores from the comfort of their house
-        and shop as by sitting in front of the computer.Ecommerce, also known as
-        electronic commerce or internet commerce, refers to the buying and
-        selling of goods or services using the internet, and the transfer of
-        money and data to execute these transactions.
-        <br />
+        {/* SECTION: Main Narrative Content */}
+      <div className="row justify-content-center">
+        <div className="col-lg-10">
+          
+          {/* Card Block 1: Introduction to E-Commerce */}
+          <div className="card shadow-sm border-0 p-4 mb-4 bg-light-custom">
+            <p className="lead font-weight-normal mb-0" style={{ lineHeight: "1.7" }}>
+              <strong>Online shopping</strong> is a modern process whereby consumers directly buy goods and
+              services from a seller without any intermediary over the Internet. From the comfort of your house, 
+              shoppers can visit web stores and explore vast choices effortlessly. Ecommerce (electronic commerce) 
+              bridges the gap between global sellers and buyers, enabling smooth transfer of funds and data to 
+              execute fast transactions.
+            </p>
+          </div>
         <br />
         In existing system shopping can done in a manual way, the customer has
         to go for shopping, and then he is having the possibility to choose the
